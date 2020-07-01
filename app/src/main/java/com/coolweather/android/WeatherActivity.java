@@ -1,5 +1,6 @@
 package com.coolweather.android;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -35,6 +36,7 @@ import okhttp3.Response;
 
 ;
 
+@SuppressLint("Registered")
 public class WeatherActivity extends AppCompatActivity {
     private ScrollView weatherLayout;
     private TextView titleCity;
